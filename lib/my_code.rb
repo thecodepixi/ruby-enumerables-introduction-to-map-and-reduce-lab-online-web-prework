@@ -51,7 +51,9 @@ end
 #totaled array
 def reduce_to_total(source_array, starting_point)
 
-  source_array.each
+  source_array.each do |x|
+    
+  end
   
 end
 
