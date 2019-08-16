@@ -11,12 +11,12 @@ def map_to_negativize(source_array)
 
 end
 def map_to_no_change(source_array)
-  negative_array = []
+  unchanged_array = []
   
   source_array.length.times do |x|
-    negative_array.push(source_array[x] * -1)
+    unchanged_array.push(source_array[x])
   end
   
-  negative_array
+  unchanged_array
 
 end
