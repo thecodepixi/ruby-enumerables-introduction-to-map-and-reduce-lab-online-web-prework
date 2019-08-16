@@ -91,11 +91,12 @@ def reduce_to_any_true(source_array)
     if(source_array[x] == true)
       true_stuff.push(source_array[x])
       return true
-    else
-      return false
     end 
   end 
   
+  if (true_stuff.length == 0)
+    return false
+  end 
 end 
 
 
