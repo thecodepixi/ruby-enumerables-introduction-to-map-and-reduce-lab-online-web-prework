@@ -70,11 +70,15 @@ def reduce_to_all_true(source_array)
   true_array = []
   
   source_array.length.times do |x|
-    if(source_array[x] = true) 
-      true_array.push() 
+    if(source_array[x] == true) 
+      true_array.push(source_array[x])
+    else
+      return false 
     end
+    
+    return true 
+    
   end
-  
   
 end
 
