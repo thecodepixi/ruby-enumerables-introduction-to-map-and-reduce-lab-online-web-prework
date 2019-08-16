@@ -82,5 +82,20 @@ def reduce_to_all_true(source_array)
   
 end
 
+#any true 
+def reduce_to_any_true(source_array)
+  
+  true_stuff = []
+  
+  source_array.length.times do |x|
+    if(source_array[x] == true)
+      true_stuff.push(source_array[x])
+      return true
+    end 
+  end 
+  
+end 
+
+
 
 
