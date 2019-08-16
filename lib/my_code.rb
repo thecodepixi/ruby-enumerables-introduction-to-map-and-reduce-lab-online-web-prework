@@ -54,9 +54,13 @@ def reduce_to_total(source_array, starting_point = 0)
   total_array = []
   sum = starting_point
   
-  source_array.each do |x|
+  source_array.length.times do |x|
     sum += source_array[x]
   end
+  
+  total_array.push(sum)
+  
+  total_array
   
 end
 
