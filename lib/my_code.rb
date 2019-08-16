@@ -49,7 +49,7 @@ def map_to_square(source_array)
 end
 
 #totaled array
-def reduce_to_total(source_array,starting_point)
+def reduce_to_total(source_array, starting_point)
 
   total_array =[]
   new_total = starting_point
@@ -58,6 +58,8 @@ def reduce_to_total(source_array,starting_point)
   new_total += source_array[x]
   end
 
+  total_array.push(new_total)
+  total_array
   
 end
 
