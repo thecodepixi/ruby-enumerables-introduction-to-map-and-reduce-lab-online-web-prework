@@ -1,5 +1,6 @@
 # My Code here....
 
+#negative array
 def map_to_negativize(source_array)
   negative_array = []
   
@@ -11,6 +12,7 @@ def map_to_negativize(source_array)
 
 end
 
+#unchanged array
 def map_to_no_change(source_array)
   unchanged_array = []
   
@@ -22,6 +24,7 @@ def map_to_no_change(source_array)
 
 end
 
+#doubled array
 def map_to_double(source_array)
   doubled_array = []
   
@@ -33,6 +36,7 @@ def map_to_double(source_array)
 
 end
 
+#squared array
 def map_to_square(source_array)
   squared_array = []
   
@@ -43,3 +47,16 @@ def map_to_square(source_array)
   squared_array
 
 end
+
+#totaled array
+def reduce_to_total(source_array,starting_point)
+
+  total_array =[starting_point]
+  
+  source_array.length.times do |x|
+  source_array[x]
+end
+
+
+
+
