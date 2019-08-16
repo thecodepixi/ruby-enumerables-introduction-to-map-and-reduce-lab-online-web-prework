@@ -52,14 +52,15 @@ end
 def reduce_to_total(source_array, starting_point)
 
   total_array =[]
-  new_total = starting_point
-  
+  total= 0
   source_array.length.times do |x|
-  new_total += source_array[x]
+  total += source_array[x]
   end
-
-  total_array.push(new_total)
-  total_array
+  
+  total += starting_point
+  
+  total_array.push(total)
+  total_array 
   
 end
 
