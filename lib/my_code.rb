@@ -50,9 +50,12 @@ end
 
 #totaled array
 def reduce_to_total(source_array, starting_point)
-
+  
+  total_array = []
+  sum = 0
+  
   source_array.each do |x|
-    
+    sum += 
   end
   
 end
