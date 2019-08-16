@@ -66,7 +66,15 @@ end
 
 #all true array
 def reduce_to_all_true(source_array)
-
+  
+  true_array = []
+  the truth = ""
+  
+  source_array.length.times do |x|
+    if(source_array[x] = true) 
+      iftrue.push(source)
+    end
+  end
   
   
 end
