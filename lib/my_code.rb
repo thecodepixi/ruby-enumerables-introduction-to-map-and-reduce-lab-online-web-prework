@@ -60,7 +60,7 @@ def reduce_to_total(source_array, starting_point = 0)
   
   total_array.push(sum)
   
-  total_array
+  total_array[0]
   
 end
 
